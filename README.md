@@ -19,7 +19,7 @@ Your repository should include the following:
 -----
 
 ## Research Question
-How can we use machine learning can prdict and classify the diabetes?.
+How can we use machine learning to prdict and classify the diabetes?.
 
 
 ### Abstract
@@ -29,7 +29,7 @@ How can we use machine learning can prdict and classify the diabetes?.
 - opportunity (diabetes data set )
 - challenge ( our challenge is to  predict diabetes)
 - action (we will solve this problem by using a machine learning model with a pproporiate algorithm "DT Classifier")
-- resolution (using "DT Classifier")
+- resolution (using "DT Classifier" and "Logistic Regression")
 
 ### Introduction
 Diabetes dataset which is a Ten baseline variables + new veriable"Outcome", age, sex, body mass index, average blood pressure
@@ -50,9 +50,7 @@ based on the BMI and its levels, i have created a new feature called Outcome and
   ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/model_scores.png)
 ### Results
 
-As a result of what we did abov
-
- the most important features and the accuracy before and after feature selection
+ The most important features and the accuracy before and after feature selection
   ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/features_bef_after.PNG)
   here is the logistec regression
 ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/logreg.png)
@@ -63,10 +61,8 @@ the classification
 
 
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
-
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
+As a result of the figures above and the accuracy of the models i have usedto classify the diabetes and predict it.
+And yes i can say that we have probably been able to solve it, i have also tried lasso model but i wasn't sure about the results if it solved the problem or not.
 
 ### References
 All of the links
