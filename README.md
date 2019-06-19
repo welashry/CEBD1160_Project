@@ -4,7 +4,7 @@ Instructions and template for final projects.
 
 | Name | Date |
 |:-------|:---------------|
-|Wagdy Elashry | Completion date|
+|Wagdy Elashry | June 19,2019 |
 
 -----
 
