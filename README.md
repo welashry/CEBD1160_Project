@@ -37,12 +37,25 @@ and six blood serum measurements were obtained for each of n = 442 diabetes pati
 
 ### Methods
 based on the BMI and its levels, i have created a new feature called Outcome and fill it up with approporiate value(0"means the patient doesnt have diabetes" or 1"means the patient has a diabetes" and use it in order to help me predict the diabetes 
-Brief Analysis of the diabetes data
-![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/4pairplot2.png)
+ and here is a Brief Analysis of the diabetes data
+![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/pairplot.png)
 
+ then using heat map to find the correlation between the features
+ ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/Heatmap.png)
+ 
 
+ 
+ to solve the problem i have used KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier,GaussianNB...etc and i also compaired these models in order to know the accuracy of machine learning algorithms and therefor choose the accurate ones.
+  
+  ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/model_scores.png)
 ### Results
 
+As a result of what we did abov
+
+ the most important features and the accuracy before and after feature selection
+  ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/features_bef_after.PNG)
+  here is the logistec regression
+![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/logreg.png)
 Brief (2 paragraph) description about your results. Include:
 
 - At least 1 figure
