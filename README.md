@@ -38,6 +38,7 @@ and six blood serum measurements were obtained for each of n = 442 diabetes pati
 ### Methods
 based on the BMI and its levels, i have created a new feature called Outcome and fill it up with approporiate value(0"means the patient doesnt have diabetes" or 1"means the patient has a diabetes" and use it in order to help me predict the diabetes 
 Brief Analysis of the diabetes data
+![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/4pairplot2.png)
 
 
 ### Results
