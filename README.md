@@ -19,7 +19,7 @@ Your repository should include the following:
 -----
 
 ## Research Question
-How can we use machine learning can prdict diabetes?.
+How can we use machine learning can prdict and classify the diabetes?.
 
 
 ### Abstract
@@ -43,7 +43,7 @@ based on the BMI and its levels, i have created a new feature called Outcome and
  then using heat map to find the correlation between the features
  ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/Heatmap.png)
  
-
+ 
  
  to solve the problem i have used KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier,GaussianNB...etc and i also compaired these models in order to know the accuracy of machine learning algorithms and therefor choose the accurate ones.
   
@@ -56,11 +56,11 @@ As a result of what we did abov
   ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/features_bef_after.PNG)
   here is the logistec regression
 ![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/logreg.png)
-Brief (2 paragraph) description about your results. Include:
 
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
+the classification
+![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/Log_ROC.png)
+![alt text](https://raw.githubusercontent.com/welashry/CEBD1160_Project/master/Plots/classification.PNG)
+
 
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
