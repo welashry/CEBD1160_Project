@@ -1,1 +1,11 @@
+1- Save your dataset "diabetes.csv" to your Desktop 2-Create a script on your Desktop called "test.py" and follow the instructions below:- Import the libraries that you will need in your script(pandas-matplotlib-os, etc..):
+```import numpy as np
+
+import matplotlib.pyplot as plt
+
+import pandas as pd
+from sklearn.metrics import roc_auc_score
+
+from sklearn.metrics import roc_curve
+from sklearn.model_selection import train_test_split
 
