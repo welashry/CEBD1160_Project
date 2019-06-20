@@ -66,5 +66,7 @@ And yes i can say that we have probably been able to solve it, i have also tried
 
 ### References
 All of the links
+1-https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html
+2-https://towardsdatascience.com/machine-learning-for-diabetes-562dd7df4d42
 
 -------
