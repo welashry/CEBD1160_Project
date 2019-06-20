@@ -65,7 +65,7 @@ As a result of the figures above and the accuracy of the models i have usedto cl
 And yes i can say that we have probably been able to solve it, i have also tried lasso model but i wasn't sure about the results if it solved the problem or not.
 
 ### References
-All of the links
+
 1-https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html
 2-https://towardsdatascience.com/machine-learning-for-diabetes-562dd7df4d42
 
