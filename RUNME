@@ -1,0 +1,67 @@
+How to Create python file and Run it
+1- Save your dataset "diabetes.csv" to your Desktop 2- To Create a script using Pychram go to your C:\Users\Username\PycharmProjects\Project1 > Create Scripts called  "KNeighborsClassifie.py","Logistic_Regression.py","LogReg_Lasso.py","Models_accuracy.py","Visualize_data.py" and follow the instructions below:- Import the libraries that you will need in your script(pandas-matplotlib-os, and the algorithms  etc..):
+
+3- when you finish your script and want to run it type "python3 Script_name".
+
+
+
+
+
+
+
+
+
+How to run DockerFile
+
+Create a directory "DockerFolder" on the desktop and inside it Create a Dockerfile using (vim Dockerfile) and paste your scripts and datafile in it 
+and type the following:
+
+```FROM ubuntu:latest
+
+
+
+
+
+
+RUN apt-get update \
+
+    && apt-get install -y python3-pip \
+
+    && pip3 install --upgrade pip
+
+ADD ./Plots/1/ .
+
+RUN pip3 install numpy pandas matplotlib seaborn plotly sklearn
+
+
+
+
+
+
+COPY diabetes.csv .
+
+COPY KNeighborsClassifie.py .
+
+COPY Logistic_Regression.py .
+
+COPY LogReg_Lasso.py .
+
+COPY Models_accuracy.py .
+
+COPY Visualize_data.py .
+
+
+
+
+
+
+CMD ["python3","-u","KNeighborsClassifie.py"]
+
+CMD ["python3","-u","Logistic_Regression.py"]
+
+CMD ["python3","-u","LogReg_Lasso.py"]
+
+CMD ["python3","-u","Models_accuracy.py"]
+
+CMD ["python3","-u","Visualize_data.py"]
+```
