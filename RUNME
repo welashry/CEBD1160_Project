@@ -1,11 +1,8 @@
-1- Save your dataset "diabetes.csv" to your Desktop 2-to run using pycharm Create a script on your C:\Users\Username\PycharmProjects\Project1 "test.py" and follow the instructions below:- Import the libraries that you will need in your script(pandas-matplotlib-os, etc..):
-import numpy as np
+1- Save your dataset "diabetes.csv" to your Desktop 2-to run using pycharm Create a script on your C:\Users\Username\PycharmProjects\Project1
+3- Create a scripts "KNeighborsClassifie.py","Logistic_Regression.py","LogReg_Lasso.py","Models_accuracy.py","Visualize_data.py"
+_" and follow the instructions:- Import the libraries that you will need in your script(pandas-matplotlib-os,and the algorithms etc..):
 
-import matplotlib.pyplot as plt
+4- when you finish the code and want to test it to know the results, just go to the terminal and type "python3 script_name.py"
 
-import pandas as pd
-from sklearn.metrics import roc_auc_score
 
-from sklearn.metrics import roc_curve
-from sklearn.model_selection import train_test_split
 
