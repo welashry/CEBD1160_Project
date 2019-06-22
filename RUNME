@@ -1,3 +1,4 @@
+How to Create python file and Run it
 1- Save your dataset "diabetes.csv" to your Desktop 2- To Create a script using Pychram go to your C:\Users\Username\PycharmProjects\Project1 > Create Scripts called  "KNeighborsClassifie.py","Logistic_Regression.py","LogReg_Lasso.py","Models_accuracy.py","Visualize_data.py" and follow the instructions below:- Import the libraries that you will need in your script(pandas-matplotlib-os, and the algorithms  etc..):
 
 3- when you finish your script and want to run it type "python3 Script_name"
