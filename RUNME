@@ -1,4 +1,6 @@
-1- Save your dataset "diabetes.csv" to your Desktop 2-Create a script on your Desktop called "test.py" and follow the instructions below:- Import the libraries that you will need in your script(pandas-matplotlib-os, etc..):
+1- Save your dataset "diabetes.csv" to your Desktop 2- To Create a script using Pychram go to your C:\Users\Username\PycharmProjects\Project1 > Create Scripts called  "KNeighborsClassifie.py","Logistic_Regression.py","LogReg_Lasso.py","Models_accuracy.py","Visualize_data.py" and follow the instructions below:- Import the libraries that you will need in your script(pandas-matplotlib-os, and the algorithms  etc..):
+
+3- when you finish your script and want to run it type "python3 Script_name"
 
 
 
@@ -8,16 +10,9 @@
 
 
 
+How to run DockerFile
 
-
-
-
-
-
-
-
-
-Create a directory "dockerFolder" on the desktop and inside it Create a Dockerfile using (vim Dockerfile) contains Operating 
+Create a directory "DockerFolder" on the desktop and inside it Create a Dockerfile using (vim Dockerfile) and paste your scripts and datafile in it 
 and type the following:
 
 ```FROM ubuntu:latest
